@@ -10,7 +10,7 @@
 }
 
 div {
-  border: 1px solid red;
+  border: 1px solid rgb(255, 0, 0);
 }
 .header {
   display: flex;
@@ -18,7 +18,12 @@ div {
   min-height: 600px;
   max-height: 756px;
   background-color: #f2f2f2;
+  
   /* выше установили ограничения для секции */
+}
+
+.link {
+  color: #2f80ed;
 }
 
 .logo {
@@ -72,6 +77,57 @@ div {
   width: 568px;
   background-color: #2f80ed;
   z-index: 1;
+}
+
+
+
+.content {
+  margin: 100px 0;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+}
+
+.two-colums {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.two-colums__breif {
+  width: 175px;
+}
+
+.h3 {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.two-colums__main-text {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-colums__paragraph {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.two-colums__paragraph:last-child {
+  margin-bottom: 0;
+}
+
+.span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 /* и элемента с модификатором вида ключ-значение */
