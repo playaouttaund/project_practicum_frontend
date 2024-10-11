@@ -20,9 +20,27 @@ div {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
   
   /* выше установили ограничения для секции */
+}
+
+.h1 {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.h2 {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.h3 {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .link {
@@ -47,6 +65,7 @@ div {
   font-size: 102px;
   line-height: 96px;
   font-weight: 600;
+  z-index: -1;
 }
 
 .header__subtitle {
@@ -89,12 +108,12 @@ div {
 
 
 .content {
-  margin: 100px 0;
 }
 
 .description {
   display: flex;
   justify-content: center;
+  margin-bottom: 100px;
 }
 
 .two-colums {
@@ -107,11 +126,6 @@ div {
   width: 175px;
 }
 
-.h3 {
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-}
 
 .two-colums__main-text {
   display: flex;
@@ -137,6 +151,75 @@ div {
   font-weight: 600;
 }
 
+.digits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.digits__section-title {
+  display: flex;
+  width: 60%;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.digits__section-subtitle {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+}
+
+.table {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1100px;
+  justify-content: space-between;
+}
+
+.table__cell {
+  margin-top: 60px;
+  width: 250px;
+}
+
+.table__heading {
+  margin-bottom: 20px;
+}
+
+.table__text {
+  margin-bottom: 20px;
+}
+
+.table__text:last-child {
+  margin-bottom: 0px;
+}
+
+.h1_place_digits {
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.h2_place_digits {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.h3_place_digits {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.p_place_digits {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
@@ -144,3 +227,4 @@ div {
   margin-right: 0;
   margin-top: 80px;
 }
+
