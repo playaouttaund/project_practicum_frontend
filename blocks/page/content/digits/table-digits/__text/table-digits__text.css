@@ -1,0 +1,7 @@
+.table-digits__text {
+    margin-bottom: 20px;
+}
+
+.table-digits__text:last-child {
+    margin-bottom: 0px;
+}

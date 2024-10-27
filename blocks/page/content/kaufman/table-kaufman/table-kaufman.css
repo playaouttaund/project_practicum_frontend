@@ -1,0 +1,7 @@
+.table-kaufman {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 260px;
+    z-index: 1;
+}
